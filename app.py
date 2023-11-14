@@ -54,7 +54,7 @@ def predict():
         print("-------------------")
         res_img = Image.fromarray(result.plot())
         image_byte_stream = io.BytesIO()
-        res_img.save("D:/DUK/tomato-maturity/webapp/saves/img.png", format="PNG")
+        res_img.save("saves\img.png", format="PNG")
         res_img.save(
             image_byte_stream, format="PNG"
         )  # You can use a different format if desired, such as 'JPEG'

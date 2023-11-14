@@ -65,6 +65,6 @@ def predict():
 
 
 if __name__ == "__main__":
-    #app.run(port=PORT_NUMBER)
+    # app.run(port=PORT_NUMBER)
 
-    serve(app, host='0.0.0.0', port=PORT_NUMBER)
+    serve(app, host="0.0.0.0", port=PORT_NUMBER)
